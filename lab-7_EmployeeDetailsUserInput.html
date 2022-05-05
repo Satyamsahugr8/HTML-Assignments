@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Employee Details</title>
+    <style>
+        table {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <table border="1">
+
+            <tr>
+                <td><label style="text-align: center;">Name</label></td>
+                <td><input type="text" maxlength="20" autofocus></td>
+            </tr>
+            <tr>
+                <td><label style="text-align: center;">Employee Code</label></td>
+                <td><input type="text" maxlength="4"></td>
+            <tr>
+            <tr>
+                <td><label for="">Department</label></td>
+                <td><input type="radio"><label for="">Admin</label><br>
+                    <input type="radio"><label for="">HR</label><br>
+                    <input type="radio"><label for="">Technical</label><br>
+                    <input type="radio"><label for="">Accounts</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Date of Join</label></td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td><label>Address</label></td>
+                <td><input type="text" maxlength="120" width="200" height="200"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Training Program attended</label>
+                </td>
+                <td>
+                    <input type="checkbox"><label for="">HTML/DHTML</label><br>
+                    <input type="checkbox"><label for="">Java</label><br>
+                    <input type="checkbox"><label for="">Client/Server</label><br>
+                    <input type="checkbox"><label for="">.NET</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label><b>Training program need to attend</b></label></td>
+                <td><select name="" id="">
+                        <option value="">JavaScript</option>
+                        <option value="">Java</option>
+                        <option value="">Python</option>
+                        <option value="">C</option>
+                        <option value="">C++</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label><b>Send the information at</b></label></td>
+                <td>
+                    <a href="mailto:empinfo@capgemini.com">empinfo@capgemini.com</a>
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+</body>
+
+</html>

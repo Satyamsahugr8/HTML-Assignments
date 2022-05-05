@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Candidate Information</title>
+    <style>
+        table {
+            background-color: lightblue;
+        }
+
+        /* :required{
+            color: red;
+        } */
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <table border="1">
+            <caption><h2> Candidate Information </h2></caption>
+
+            <tr>
+                <td><label>Name:*</label></td>
+                <td><input type="text" maxlength="20" autofocus required></td>
+            </tr>
+            <tr>
+                <td><label>Password:*</label></td>
+                <td><input type="text" maxlength="20" required></td>
+            </tr>
+            <tr>
+                <td><label for=""> Phone number:*</label></td>
+                <td><input type="number" name="" id="" maxlength="12"></td>
+            </tr>
+            <tr>
+                <td><label for="">Gender:*</label required></td>
+                <td><input type="radio"><label for="">Male</label>
+                    <input type="radio"><label for="">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Date of Birth:*</label></td>
+                <td><input type="date" required></td>
+            </tr>
+            <tr>
+                <td><label for="">Email:*</label></td>
+                <td><input type="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="">Highest Qualification:*</label> </td>
+                <td><select name="" id="">
+                        <option value="">Select Highest Qualification</option>
+                        <option value="">12<sup>th</sup> </option>
+                        <option value="">B.tech</option>
+                        <option value="">M.tech</option>
+
+                    </select></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Courses Interested in:*</label required>
+                </td>
+                <td>
+                    <input type="checkbox"><label for="">Java</label>
+                    <input type="checkbox"><label for="">HTML 5</label>
+                    <input type="checkbox"><label for="">CSS 3</label>
+                    <input type="checkbox"><label for="">Angular JS</label>
+                    <input type="checkbox"><label for="">JQuery</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Comments: (Mention External Certifications if any)</label required></td>
+                <td><input type="text" maxlength="120" width="200" height="200"></td>
+            </tr>
+            <tr>
+                <td><label><b>Upload Degree / External Certificates:*</b></label required></td>
+                <td>
+                    <input type="file" accept="image/*">
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <button>Submit INformation</button>
+                    <button>Clear</button>
+                </td>
+            </tr>
+
+        </table>
+        <p style="text-align: left; color: red;">All fields marked(*) are mandatory</p>
+
+    </form>
+</body>
+
+</html>
